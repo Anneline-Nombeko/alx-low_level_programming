@@ -3,7 +3,7 @@
  * main-swap value of intergers
  * @a integer to swap
  * @b integer to swap
- * return:Always 0.
+ * return:success
  */
 voide swap_int(int *a, int *b)
 {
