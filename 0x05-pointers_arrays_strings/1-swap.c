@@ -5,9 +5,10 @@
  * @b integer to swap
  * return:success
  */
-voide swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
-	int m = *a;
+	int m;
+	m = *a;
 	*a = *b;
-	*b = *m;
+	*b = m;
 }
