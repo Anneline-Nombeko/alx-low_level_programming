@@ -4,9 +4,9 @@
  * @str: print string
  * return:success
  */
-int _strlen(char *s)
+int _puts(char *str)
 {
-	while (*s != '\0')
+	while (*str != '\0')
 	{
 		_putchar(*str++);
 	}
